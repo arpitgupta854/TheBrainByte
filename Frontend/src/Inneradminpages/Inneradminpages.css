@@ -1,0 +1,296 @@
+.category-container{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-weight: 700;
+}
+.category-container h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+}
+.category-innner-element{
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 30px;
+
+}
+.addcategorybutton{
+    text-align: center;
+}
+.addcategorybutton button{
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.5rem;
+}
+.addCategories{
+    text-align: center;
+}
+.addCategories input{
+    width: 540px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: start;
+    padding-left: 20px;
+    border: 2px solid blueviolet;
+    background-color: wheat;
+    border-radius: 8px;
+    color: blueviolet;
+}
+.addCategories textarea{
+    width: 680px;
+    height: 176px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: start;
+    padding-left: 20px;
+    border: 2px solid blueviolet;
+    background-color: wheat;
+    border-radius: 8px;
+    color: blueviolet;
+}
+.deletebutton {
+    justify-content: end;
+    text-align: end;
+    margin-top: -16px;
+}
+.deletebutton button{
+    margin-top: -10px;
+}
+.category-element h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+}
+.quiz-container h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+}
+.quiz-container1{
+    display: flex;
+    margin-top: 12px;
+}
+.quiz-container-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 23px;
+    margin-top: 8px;
+}
+.buttonofquiz button{
+    width: 120px;
+}
+.buttonofquiz{
+margin-left: 40px;
+}
+.add-quiz-container h1{
+   text-align: center;
+   font-size: 2rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+}
+
+.add-quiz-container{
+    text-align: center;
+}
+.add-quiz-container input{
+    width: 540px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: start;
+    padding-left: 20px;
+    border: 2px solid blueviolet;
+    background-color: wheat;
+    border-radius: 8px;
+    color: blueviolet;
+}
+.add-quiz-container textarea{
+    width: 680px;
+    height: 176px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: start;
+    padding-left: 20px;
+    border: 2px solid blueviolet;
+    background-color: wheat;
+    border-radius: 8px;
+    color: blueviolet;
+}
+.add-quiz-container .text1{
+    width: 270px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: start;
+    padding-left: 20px;
+    border: 2px solid blueviolet;
+    background-color: wheat;
+    border-radius: 8px;
+    color: blueviolet;
+    margin-left: 20px;
+}
+.category label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.category{
+    display: flex;
+    text-align: center;
+    margin-left: 29%;
+    gap: 13px;
+}
+.option1{
+    width: 150px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: start;
+    padding-left: 20px;
+    border: 2px solid blueviolet;
+    background-color: wheat;
+    border-radius: 8px;
+    color: blueviolet;
+    margin-left: 5px;
+    padding-top: 1px;
+}
+.no-of-columns{
+    display: flex;
+    margin-left: 29%;
+}
+.Question-container h1{
+    text-align: center;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+}
+.question-content{
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    padding: 12px;
+    padding-left: 30px;
+}
+.upper-option-container{
+    display: flex;
+    margin-bottom: 12px;
+    margin-left: 13px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.lower-option-container{
+    display: flex;
+    margin-left: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.question-content p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.addquestion {
+    text-align: center;
+}
+.addquestion button{
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.5rem;
+}
+.Add-question h1{
+    text-align: center;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+}
+.Add-question{
+    text-align: center;
+}
+.add-question-content textarea{
+    width: 680px;
+    height: 176px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: start;
+    padding-left: 20px;
+    border: 2px solid blueviolet;
+    background-color: wheat;
+    border-radius: 8px;
+    color: blueviolet;
+}
+.upper-option input{
+    width: 270px;
+    height: 40px;
+    background-color: wheat;
+    color: blueviolet;
+    border-radius: 5px;
+    gap: 10px;
+    border: 2px solid blueviolet;
+    margin-right: 12px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 12px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+
+}
+.lower-options input{
+    width: 270px;
+    height: 40px;
+    background-color: wheat;
+    color: blueviolet;
+    border-radius: 5px;
+    gap: 10px;
+    border: 2px solid blueviolet;
+    margin-right: 12px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 12px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.submitbutton button{
+    width: 220px;
+    height: 40px;
+    margin-left: 15px;
+   background-color: blueviolet;
+   color: white;
+}

@@ -1,0 +1,62 @@
+/* Main container setup */
+.container1 {
+    display: flex;
+    justify-content: start;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+/* Sidebar (Menu) */
+.menu-container {
+    width: 250px;
+    height: 85vh;
+    background-color: rgb(140, 48, 226);
+    color: white;
+    text-align: center;
+    border-radius: 11px;
+    position: fixed;
+    left: 21px;
+    top: 80px;
+    overflow-y: auto;
+}
+
+.menu-container h4 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Menu Items */
+.menu-container ul {
+    padding: 0;
+}
+
+.menu-container li {
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Line between items */
+}
+
+.menu-container li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-container li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Content Area */
+.content-container {
+    flex: 1;
+    margin-left: 300px; /* Push content right to make space for sidebar */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 85vh;
+    width: calc(100% - 300px); /* Dynamic width */
+    margin-right: 30px;
+}
