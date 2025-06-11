@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgb(152, 138, 120); */
+}
+.container{
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 80px;
+    width: 40%;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.image img{
+    height: 70px;
+    width: 70px;
+    z-index: -1;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.input-field input{
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: 4px splid rgb(241, 162, 162);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    color: rgb(241, 162, 162);
+}
+::placeholder{
+    color: black;
+}
+.button-container .register{
+    background-color: rgb(0, 42, 255);
+    color: white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 42, 255);
+    margin-top: 30px;
+    cursor: pointer;
+}
+.button-container .clear{
+    background-color: rgb(255, 0, 132);
+    color: white;
+    color: white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 0, 132);
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.show-alert{
+    background-color: rgb(112, 153, 243);
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 37%;
+    z-index: 9998;
+    padding-top: 12px;
+    border-radius: 5px;
+    margin-top: 0px;
+    display: none;
+}
+
+.show-alert1{
+    background-color: rgb(112, 153, 243);
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    margin-left: 37%;
+    z-index: 9998;
+    padding-top: 12px;
+    border-radius: 5px;
+    margin-top: 100px;
+    display: none;
+}
+.show-alert2{
+    /* background-color: rgb(112, 153, 243); */
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    margin-left: 37%;
+    z-index: 9998;
+    padding-top: 12px;
+    border-radius: 5px;
+    margin-top: 100px;
+    display: block;
+}
+.profile-container{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+}
+.profile-img img{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 4px solid blueviolet;
+}
+.user-data{
+    text-align: center;
+    margin-top: 30px;
+}
+table{
+    width: 550px;
+    margin-left: 28%;
+}
+th ,td{
+    border: 4px solid black;
+    height: 55px;
+    font-size: 1.1rem;
+    color: blueviolet;
+}
+.profile-container h3{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-top: -10px;
+    color: blueviolet;
+}
+.profile-container button{
+    background-color:blueviolet;
+    color: white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid rgb(176, 29, 255);
+    margin-top: 30px;
+    cursor: pointer;
+}
+.profile-container button:hover{
+    background-color: rgb(133, 27, 233);
+}

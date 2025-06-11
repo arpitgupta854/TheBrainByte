@@ -1,0 +1,180 @@
+.dashboard-container{
+    display: flex;
+    cursor: pointer;
+}
+.categories-section{
+    display: flex;
+    flex-direction: column;
+}
+.categories-list{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    height: 88vh;
+    width: 250px;
+    text-align: center;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    padding-top: 20px;
+}
+.quizzes-section h2{
+    text-align: center;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 50px;
+}
+.quizzes-section{
+    margin-left: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    height: 88vh;
+    width: calc(100% - 300px);
+    margin-right: 30px;
+    margin-top: -30px;
+    overflow-y: auto;
+}
+.categories-section h2{
+    text-align: center;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+.categories-list button{
+    width: 200px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+.quiz-card{
+    display: flex;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+.quiz-card img{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+.quiz-content{
+    margin-left: 20px;
+    margin-top: -10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.quiz-child-class{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 18%;
+    background-color: blueviolet;
+    border-radius: 8px;
+    width: 600px;
+    margin-left: 28%;
+    color: white;
+}
+.instruction-container {
+    margin-top: 80px;
+    text-align: center;
+    background: #ffffff;
+    width: 500px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.instruction-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instruction-logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.instruction-header h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+.instruction-content h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #444;
+    margin-top: 15px;
+}
+
+.quiz-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.instructions-list {
+    text-align: left;
+    margin-top: 15px;
+
+}
+
+.instructions-list h4 {
+    font-size: 1.3rem;
+    color: #222;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+.instructions-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.instructions-list ul li {
+    font-size: 1rem;
+    margin: 6px 0;
+    color: #555;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.instructions-list ul li::before {
+    content: "✔️";
+    margin-right: 8px;
+    color: green;
+}
+
+.start-quiz-btn {
+    background: blueviolet;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 140px;
+    margin-top: 15px;
+}
+
+.start-quiz-btn:hover {
+    background: #0056b3;
+}
