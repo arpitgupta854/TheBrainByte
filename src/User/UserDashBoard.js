@@ -15,7 +15,7 @@ const UserDashBoard = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8090/category/", {
+      .get("https://java-application-latest-hmys.onrender.com/category/", {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((res) => setCategories(res.data))
@@ -23,16 +23,16 @@ const UserDashBoard = () => {
   }, [token]);
 
   useEffect(() => {
-    let url = "http://localhost:8090/quiz/"; // Default API for all quizzes
+    let url = "https://java-application-latest-hmys.onrender.com/quiz/"; // Default API for all quizzes
 
     if (categoryId) {
-      url = `http://localhost:8090/category/${categoryId}/quizzes`; // Adjust based on active status
+      url = `https://java-application-latest-hmys.onrender.com/category/${categoryId}/quizzes`; // Adjust based on active status
     }
 
     if (showActive) {
       url = categoryId
-        ? `http://localhost:8090/quiz/category/active/${categoryId}`
-        : `http://localhost:8090/quiz/active`;
+        ? `https://java-application-latest-hmys.onrender.com/quiz/category/active/${categoryId}`
+        : `https://java-application-latest-hmys.onrender.com/quiz/active`;
     }
 
     axios

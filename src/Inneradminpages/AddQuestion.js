@@ -59,7 +59,7 @@ const AddQuestion = () => {
     };
 
     try {
-      await axios.post(`http://localhost:8090/question/`, questionData, {
+      await axios.post(`https://java-application-latest-hmys.onrender.com/question/`, questionData, {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "application/json",

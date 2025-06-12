@@ -13,7 +13,7 @@ const Instructions = () => {
     if (!qid) return;
 
     axios
-      .get(`http://localhost:8090/quiz/${qid}`, {
+      .get(`https://java-application-latest-hmys.onrender.com/quiz/${qid}`, {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((res) => {

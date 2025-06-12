@@ -15,7 +15,7 @@ const AddCategories = () => {
     event.preventDefault();
 
     try{
-      const response= axios.post('http://localhost:8090/category/',addCategory,{
+      const response= axios.post('https://java-application-latest-hmys.onrender.com/category/',addCategory,{
         headers: {
           "Authorization": `Bearer ${token}`,
           'Content-Type': 'application/json',

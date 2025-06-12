@@ -19,7 +19,7 @@ const AddQuiz = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await axios.get("http://localhost:8090/category/", {
+        const response = await axios.get("https://java-application-latest-hmys.onrender.com/category/", {
           headers: {
             Authorization: `Bearer ${token}`,
             "Content-Type": "application/json",
@@ -68,7 +68,7 @@ const AddQuiz = () => {
     console.log("Submitting quiz:", JSON.stringify(quiz, null, 2));
 
     try {
-      await axios.post("http://localhost:8090/quiz/", quiz, {
+      await axios.post("https://java-application-latest-hmys.onrender.com/quiz/", quiz, {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "application/json",

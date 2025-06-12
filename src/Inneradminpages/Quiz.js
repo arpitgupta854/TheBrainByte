@@ -14,7 +14,7 @@ const Quiz = () => {
   useEffect(() => {
     const fetchQuizzes = async () => {
       try {
-        const response = await axios.get("http://localhost:8090/quiz/", {
+        const response = await axios.get("https://java-application-latest-hmys.onrender.com/quiz/", {
           headers: {
             "Authorization": `Bearer ${token}`,
             "Content-Type": "application/json",
@@ -51,7 +51,7 @@ const Quiz = () => {
 
     if (result.isConfirmed) {
       try {
-        await axios.delete(`http://localhost:8090/quiz/${qId}`, {
+        await axios.delete(`https://java-application-latest-hmys.onrender.com/quiz/${qId}`, {
           headers: {
             "Authorization": `Bearer ${token}`,
             "Content-Type": "application/json",

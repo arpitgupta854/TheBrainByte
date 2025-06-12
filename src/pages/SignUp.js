@@ -19,7 +19,7 @@ const SignUp = () => {
     event.preventDefault();
     const alertElement = document.querySelector('.show-alert');
     try {
-      const response = await axios.post('http://localhost:8090/user/', user, {
+      const response = await axios.post('https://java-application-latest-hmys.onrender.com/user/', user, {
         headers: {
           'Content-Type': 'application/json',
         },

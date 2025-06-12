@@ -10,7 +10,7 @@ const Categories = () => {
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                const response = await axios.get("http://localhost:8090/category/", {
+                const response = await axios.get("https://java-application-latest-hmys.onrender.com/category/", {
                     headers: {
                         "Authorization": `Bearer ${token}`,
                         "Content-Type": "application/json",
@@ -35,7 +35,7 @@ const Categories = () => {
 
     const deleteCategory = async (cid) => {
         try {
-            await axios.delete(`http://localhost:8090/category/${cid}`, {
+            await axios.delete(`https://java-application-latest-hmys.onrender.com/category/${cid}`, {
                 headers: {
                     "Authorization": `Bearer ${token}`,
                     "Content-Type": "application/json",

@@ -19,7 +19,7 @@ const Question = () => {
     if (!qid) return;
 
     axios
-      .get(`http://localhost:8090/question/quiz/${qid}`, {
+      .get(`https://java-application-latest-hmys.onrender.com/question/quiz/${qid}`, {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((res) => setQuestions(res.data))

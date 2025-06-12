@@ -16,7 +16,7 @@ const Question = () => {
   // Function to fetch questions
   const fetchQuizData = async () => {
     try {
-      const response = await axios.get(`http://localhost:8090/question/quiz/${qId}`, {
+      const response = await axios.get(`https://java-application-latest-hmys.onrender.com/question/quiz/${qId}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       setQuestions(response.data);  
@@ -39,7 +39,7 @@ const Question = () => {
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {
-          await axios.delete(`http://localhost:8090/question/${quesId}`, {
+          await axios.delete(`https://java-application-latest-hmys.onrender.com/question/${quesId}`, {
             headers: { Authorization: `Bearer ${token}` },
           });
 

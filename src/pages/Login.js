@@ -26,7 +26,8 @@ const Login = () => {
         }
     
         try {
-            const response = await axios.post("http://localhost:8090/generate-token", user);
+            // const response = await axios.post("http://localhost:8090/generate-token", user);
+            const response = await axios.post("https://java-application-latest-hmys.onrender.com/generate-token", user);
             const token = response.data.token;
             if (token) {
                 AuthService.login(token); 

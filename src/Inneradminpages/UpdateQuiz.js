@@ -14,7 +14,7 @@ const UpdateQuiz = () => {
   useEffect(() => {
     const fetchQuizData = async () => {
       try {
-        const response = await axios.get(`http://localhost:8090/quiz/${qId}`, {
+        const response = await axios.get(`https://java-application-latest-hmys.onrender.com/quiz/${qId}`, {
           headers: { Authorization: `Bearer ${token}` },
         });
         setQuiz(response.data);
@@ -25,7 +25,7 @@ const UpdateQuiz = () => {
 
     const fetchCategories = async () => {
       try {
-        const response = await axios.get("http://localhost:8090/category/", {
+        const response = await axios.get("https://java-application-latest-hmys.onrender.com/category/", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setCategories(response.data);
@@ -68,7 +68,7 @@ const UpdateQuiz = () => {
 
     if (result.isConfirmed) {
       try {
-        await axios.put(`http://localhost:8090/quiz/${qId}`, quiz, {
+        await axios.put(`https://java-application-latest-hmys.onrender.com/quiz/${qId}`, quiz, {
           headers: { Authorization: `Bearer ${token}` },
         });
 

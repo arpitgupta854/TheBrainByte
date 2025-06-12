@@ -12,7 +12,7 @@ class AuthService {
         if (!token) return null;
     
         try {
-            const response = await fetch("http://localhost:8090/current-user", {
+            const response = await fetch("https://java-application-latest-hmys.onrender.com/current-user", {
                 method: "GET",
                 headers: {
                     "Authorization": "Bearer " + token,
